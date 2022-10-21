@@ -1,0 +1,57 @@
+/* Rule */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #5B5B5B;
+    margin:0;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F58A07;
+}
+
+.hero-btn {
+    background-color: #F58A07;
+}
+
+.hero-btn:hover {
+    background-color: white;
+    color: #F58A07;
+}
+
+.button {
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.button {
+    display: inline-block;
+}

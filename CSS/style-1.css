@@ -1,0 +1,178 @@
+/* Html style */
+h1 {
+    margin:0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.margin {
+    margin: 128px 0;
+}
+
+.padding {
+    padding: 96px 0;
+}
+
+.padding:first-child {
+    padding: 200px 0;
+}
+
+/* Page layout */
+
+.hero p:nth-last-of-type(1) {
+    margin-top: 10%;
+}
+
+#hero .padding {
+    padding-bottom: 0;
+}
+
+.hero-image {
+    height: 100%;
+}
+
+.button {
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.logo {
+    padding-right: 50px;
+}
+
+.service-img {
+    width: 100%;
+}
+
+.challange-img {
+    width: 33px;
+}
+
+#challange .row .col-3 {
+    background-color: white;
+    padding: 45px 30px 25px;
+    margin-top: 50px;
+}
+
+#orange-img .experience-img {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    background-image: url(../images/about-image.png), url(../images/orange-box.png);
+    background-position: left;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+#experience .achievements {
+    padding: 5px;
+    flex: 0 250px;
+}
+
+#services .blue-background {
+    border-radius: 20px;
+    padding: 48px;
+}
+
+#services ul {
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+#services li {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#services nav a {
+    margin: 0 10px;
+    padding: 10px 25px;
+    border: 1px solid #a2a2a2;
+    border-radius: 30px;
+}
+
+#services nav a:hover {
+    background-color: white;
+    color:#F58A07;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+#services .ribbon-background {
+    position: relative;
+}
+
+#services .team-image {
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/team.png),url(../images/orange-box-100px.png);
+    border-radius: 20px;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    margin-left : 100px;
+}
+
+#services .ribbon-only {
+    position: absolute;
+    left:1103px;
+    top: -16px;
+    width: 15%;
+}
+
+#job-vacancies .row {
+    align-items: center;
+    background-color: #F58A07;
+}
+
+#job-vacancies .col-2 {
+    padding: 0 10% 0 100px;
+}
+
+#job-vacancies h2 {
+    width: 532px;
+}
+
+.job-vacancies-image {
+    background-image: url(../images/experience-image.png);
+    width: 100%;
+    height: 518px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#finsweet-comment .ceo {
+    margin-top: 40px;
+}
+
+.ceo-img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.ceo-info {
+    margin-left: -350px;
+}
+
+#finsweet-comment h4 {
+    margin:0;
+}
+
+.blog-content {
+    padding: 0 30px 30px;
+}
+
+#blog .service-img {
+    border-radius: 20px 20px 0 0;
+}

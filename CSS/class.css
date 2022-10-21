@@ -1,0 +1,56 @@
+/* Classes */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dark-blue {
+    color: #063255;
+}
+
+.light-blue {
+    color: #DCEAF5;
+}
+
+.black {
+    color: black;
+}
+
+.orange {
+    color: #F58A07;
+}
+
+.white  {
+    color: white;
+}
+
+.gray {
+    color: #a2a2a2;
+}
+
+.bold {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.gap {
+    gap: 40px;
+}
+
+.blue-background {
+    width: 100%;
+    background-color: #DCEAF5;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.no-list {
+    list-style: none;
+}

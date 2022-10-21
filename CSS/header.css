@@ -1,0 +1,43 @@
+/* Header layout */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .link {
+    padding: 0 15px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+}
+
+header a {
+    color: #063255;
+}
+
+.nav-btn {
+    background-color: #fff2e1;
+}
+
+.nav-btn:hover {
+    background-color: #F58A07;
+    color: white;
+}
+
+header h3 {
+    margin: 0;
+}

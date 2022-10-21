@@ -1,0 +1,99 @@
+/* All image edit */
+.hero-img {
+    width: 616px;
+    height: 650px;
+    border-radius: 20px;
+    background-image: url(../images/1.png), url(../images/orange-box.png);
+    background-position: left;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+.img {
+    position: relative;
+    width: 620px;
+    height: 550px;
+    border-radius: 25px;
+}
+
+.orange-box {
+    width: 95px;
+    height: 97px;
+    border-radius: 20px;
+    opacity: 0.5;
+    filter: saturate(2);
+}
+
+.left-top {
+    position: absolute;
+    top: calc(100%/3 - 47.5px);
+    left: -47.5px;
+}
+
+.right-middle {
+    position: absolute;
+    bottom: 35%;
+    left: calc(100% - 47.5px);
+}
+
+.left-middle {
+    position: absolute;
+    top: calc(100%/2 - 47.5px);
+    left: -47.5px;
+}
+
+.left-bottom {
+    position: absolute;
+    top: calc(100%/2 + 47.5px);
+    left: -47.5px;
+}
+/* Page layout */
+.container .row {
+    align-items: center;
+}
+
+#hero .margin {
+    margin: 90px 0;
+}
+.padding {
+    padding: 64px 0;
+}
+
+#hero .padding:first-child {
+    padding-top: 0;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+/* Style */
+p {
+    font-size: 1.2rem;
+    width: 95%;
+}
+
+.left-padding {
+    padding-left: 40px;
+}
+
+section ul {
+    line-height: 2.5rem;
+}
+
+#finsweet-comment h4 .ceo {
+    margin-top: 40px;
+}
+
+.ceo-img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.ceo-info {
+    margin-left: -350px;
+}
+
+#finsweet-comment h4 {
+    margin: 0;
+}

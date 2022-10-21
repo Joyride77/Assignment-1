@@ -1,0 +1,15 @@
+/* Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2 {
+    width: calc(100%/2 - 40px);
+    flex: 1 400px;
+}
+
+.col-3 {
+    width: calc(100%/3 - 40px);
+    flex: 1 400px;
+}

@@ -1,0 +1,58 @@
+/* All image edit */
+.hero-img {
+    width: 616px;
+    height: 650px;
+    border-radius: 20px;
+    background-image: url(../images/7.png), url(../images/orange-box.png);
+    background-position: left;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+/* Page layout */
+.container .row {
+    align-items: center;
+}
+
+#hero .margin {
+    margin: 90px 0 0 0;
+}
+.padding {
+    padding: 128px 0;
+}
+
+#hero .padding:first-child {
+    padding-top: 0;
+}
+
+/* Style */
+#positions .col-3 {
+    background-color: #DCEAF5;
+    padding: 32px 40px;
+    border-radius: 20px;
+}
+
+#positions h4 {
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#blog .padding {
+    padding: 96px 0;
+}
+
+
+.blog-content {
+    padding: 0 30px 30px;
+}
+
+#blog .service-img {
+    border-radius: 20px 20px 0 0;
+}
+
+main .col-3{
+    flex: 0 400px;
+}
