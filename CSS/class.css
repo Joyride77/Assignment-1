@@ -54,3 +54,12 @@
 .no-list {
     list-style: none;
 }
+
+.align-center {
+    align-self: center;
+}
+
+.align-flex-end {
+    display: flex;
+    align-self: flex-end;
+}

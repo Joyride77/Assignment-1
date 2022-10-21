@@ -12,18 +12,22 @@ h3 {
 }
 
 .margin {
-    margin: 128px 0;
+    margin: 4% 0;
 }
 
 .padding {
-    padding: 96px 0;
-}
-
-.padding:first-child {
-    padding: 200px 0;
+    padding: 4% 0;
 }
 
 /* Page layout */
+#hero {
+    margin-top: 85.89px;
+}
+@media (max-width:1000px) {
+    #hero {
+        margin-top: 150px;
+    }
+}
 
 .hero p:nth-last-of-type(1) {
     margin-top: 10%;
@@ -33,8 +37,12 @@ h3 {
     padding-bottom: 0;
 }
 
+#hero .row{
+    min-height: 50vh;
+}
+
 .hero-image {
-    height: 100%;
+    width: 100%;
 }
 
 .button {
@@ -59,25 +67,55 @@ h3 {
     width: 33px;
 }
 
+#service .left {
+    width: 60%;
+}
+
+@media (max-width:1000px) {
+    #service .left {
+        width: 100%;
+    }
+}
+
 #challange .row .col-3 {
     background-color: white;
     padding: 45px 30px 25px;
     margin-top: 50px;
 }
-
-#orange-img .experience-img {
-    width: 100%;
-    height: 600px;
-    border-radius: 20px;
-    background-image: url(../images/about-image.png), url(../images/orange-box.png);
-    background-position: left;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
+#orange-img{
+    position: relative;
+}
+#orange-img::after{
+    content: '';
+    width: 25%;
+    height: 100%;
+    background-color: #F58A07;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #experience .achievements {
     padding: 5px;
     flex: 0 250px;
+}
+#orange-img-one {
+    position: relative;
+}
+
+.experience-img {
+    width: 100%;
+    z-index: -1;
+}
+
+.experience-img::after {
+    content: '';
+    width: 20%;
+    height: 100%;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    position: absolute;
+    z-index: 1;
 }
 
 #services .blue-background {
@@ -115,20 +153,34 @@ h3 {
 }
 
 #services .team-image {
-    width: 100%;
-    height: 450px;
-    background-image: url(../images/team.png),url(../images/orange-box-100px.png);
-    border-radius: 20px;
-    background-blend-mode: multiply;
+    max-width: 100%;
+    background-image: url(../images/team.png);
     background-repeat: no-repeat;
     margin-left : 100px;
+    position: relative;
+}
+
+#services .team-image::after {
+    content: " ";
+    width: 120px;
+    height: 466px;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
 }
 
 #services .ribbon-only {
     position: absolute;
-    left:1103px;
+    right:-16px;
     top: -16px;
-    width: 15%;
+    width: 190px;
+}
+
+#services .one{
+    background-color: #F58A07;
+    border: 1px solid transparent;
+    color: white;
 }
 
 #job-vacancies .row {
