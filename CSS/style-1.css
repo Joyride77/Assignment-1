@@ -82,40 +82,28 @@ h3 {
     padding: 45px 30px 25px;
     margin-top: 50px;
 }
-#orange-img{
-    position: relative;
-}
-#orange-img::after{
-    content: '';
-    width: 25%;
-    height: 100%;
-    background-color: #F58A07;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
 
 #experience .achievements {
     padding: 5px;
     flex: 0 250px;
 }
-#orange-img-one {
-    position: relative;
-}
 
-.experience-img {
+#experience .experience-img {
     width: 100%;
-    z-index: -1;
+    height: 100%;
+    position: relative;
+    border-radius: 20px;
 }
 
-.experience-img::after {
+#experience .experience-img::after {
     content: '';
     width: 20%;
     height: 100%;
+    left: 0;
     background-color: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
-    z-index: 1;
+    border-radius: 20px 0 0 20px;
 }
 
 #services .blue-background {
@@ -152,22 +140,23 @@ h3 {
     position: relative;
 }
 
-#services .team-image {
-    max-width: 100%;
-    background-image: url(../images/team.png);
-    background-repeat: no-repeat;
-    margin-left : 100px;
+#services .team-img {
+    width: 90%;
+    height: 100%;
     position: relative;
+    margin-left: 10%;
 }
 
-#services .team-image::after {
+#services .team-img::after {
     content: " ";
-    width: 120px;
-    height: 466px;
+    width: 20%;
+    height: 100%;
+    left: 0;
     background-color: #F58A07;
     mix-blend-mode: multiply;
     position: absolute;
     border-radius: 20px 0 0 20px;
+    margin-left: 10%;
 }
 
 #services .ribbon-only {
@@ -175,6 +164,12 @@ h3 {
     right:-16px;
     top: -16px;
     width: 190px;
+}
+
+@media (max-width:1280px) {
+    #services .ribbon-only {
+        width: 0;
+    }
 }
 
 #services .one{
@@ -188,12 +183,24 @@ h3 {
     background-color: #F58A07;
 }
 
-#job-vacancies .col-2 {
-    padding: 0 10% 0 100px;
+#job-vacancies .col-2:last-child {
+    padding: 0 0 0 5%;
+}
+
+@media (max-width:1280px) {
+    #job-vacancies .col-2:last-child {
+        margin-bottom: 5%;
+    }
 }
 
 #job-vacancies h2 {
-    width: 532px;
+    width: 500px;
+}
+
+@media (max-width:1280px) {
+    #job-vacancies h2 {
+        width: 400px;
+    }
 }
 
 .job-vacancies-image {
@@ -213,8 +220,18 @@ h3 {
     width: 80px;
 }
 
+.video-image {
+    width: 100%;
+}
+
 .ceo-info {
     margin-left: -350px;
+}
+
+@media (max-width:768px) {
+    .ceo-info {
+        margin-left: 0;
+    }
 }
 
 #finsweet-comment h4 {
