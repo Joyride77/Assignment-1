@@ -1,4 +1,3 @@
-/* Page layout */
 #hero .margin {
     margin: 90px 0 0 0;
 }
@@ -15,7 +14,6 @@
     }
 }
 
-/* Style */
 #positions .col-3 {
     background-color: #DCEAF5;
     padding: 32px 40px;

@@ -7,11 +7,11 @@
     padding: 64px 0;
 }
 
+/* Style */
 #hero {
     margin-top: 180px;
 }
 
-/* Style */
 p {
     font-size: 1.2rem;
     width: 95%;
@@ -53,7 +53,6 @@ section ul {
 }
 
 /* All image edit */
-
 @media (max-width:1280px) {
     body .left-top::after, 
     body .right-middle::after,
