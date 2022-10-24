@@ -1,6 +1,11 @@
 /* Layout  */
+.container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .margin {
-    margin: 128px;
+    margin: 128px 0;
 }
 .justify-center {
     display: flex;
