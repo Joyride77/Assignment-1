@@ -1,8 +1,7 @@
 /* Layout  */
 .margin {
-    margin:128px 0;
+    margin: 128px;
 }
-
 .justify-center {
     display: flex;
     justify-content: center;
@@ -26,8 +25,14 @@
 }
 
 /* Page style */
-h1{
-    margin-top: 96px;
+#job-description {
+    margin-top: 150px;
+}
+
+@media (max-width: 1000px) {
+    #job-description {
+        margin-top: 200px;
+    }
 }
 
 .row-2 h4 {

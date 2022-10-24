@@ -1,7 +1,6 @@
 /* Footer */
 footer {
     background-color: #063255;
-    overflow: hidden;
 }
 
 #footer {
@@ -25,7 +24,7 @@ footer {
     float: left;
 }
 .col-3 .float {
-    width: 45%;
+    width: 55%;
 }
 
 footer #email {
@@ -69,27 +68,34 @@ footer #email {
     line-height: 2.5rem;
 }
 
-.orange-block {
-    width: 100px;
+.orange-block-left {
+    width: 50px;
+    height: 150px;
+    background-color: #F58A07;
+}
+
+.orange-block-right {
+    width: 50px;
     height: 300px;
     background-color: #F58A07;
-    border-radius: 30px;
 }
 
 .ob-left {
     position: absolute;
-    left:-40px;
-    top: 325px;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 20px 0 0;
 }
 
 .ob-right {
     position: absolute;
     top: 30px;
-    right: -50px;
+    right: 0;
+    border-radius: 20px 0 0 20px;
 }
 
 @media (max-width: 1400px) {
-    .orange-block {
-        width: 0;
+    .orange-block-left, .orange-block-right {
+        display: none;
     }
 }

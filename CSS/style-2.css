@@ -59,7 +59,7 @@ section ul {
     body .right-middle::after,
     body .left-middle::after, 
     body .left-bottom::after {
-        width: 0%;
+        display: none;
     }
 }
 .hero-img::after {
